@@ -1,0 +1,262 @@
+<div id="game">
+
+  <h1 class="title">Enter Phone Number </h1>
+
+  <h2 class="sub">Move the tiles to create a box. Arrange the numbers according to your preferred phone number </h2>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square">0</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square">1</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square">2</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square">3</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square">4</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square">5</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square">6</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square">7</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square">8</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square">9</div>
+      <div class="square"></div>
+    </div>
+
+    <div class="row">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+  </div>
+     <h3 class="submit">submit </h3>
+  </div>
+
+  <style>
+  html {
+  background: light grey;
+}
+
+#game {
+  margin: 100px auto;
+  width: 600px;
+  text-align: center;
+}
+.submit {
+  background: grey;
+  margin: 50px auto;
+  width: 100px;
+}
+
+.container {
+  background: purple;
+  display: grid;
+  grid: repeat(11, 50px) / auto-flow;
+}
+
+.row {
+  display: grid;
+  grid: repeat(1, 50px) / auto-flow;
+}
+
+.square {
+  background: pink;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.board {
+  background-color: purple;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: -5;
+}
+  </style>
+
+
+<script>$(".square").click(function() {
+  var txt = $(this).html();
+  var index = $(this).index();
+  if (txt !== "") {
+    if (
+      $(this)
+        .next()
+        .html() === ""
+    ) {
+      $(this).html("");
+      $(this)
+        .next()
+        .html(txt);
+    } else if (
+      $(this)
+        .parent()
+        .next()
+        .find(".square:nth-of-type(" + (index + 1) + ")")
+        .html() === ""
+    ) {
+      $(this).html("");
+      $(this)
+        .parent()
+        .next()
+        .find(".square:nth-of-type(" + (index + 1) + ")")
+        .html(txt);
+    } else if (
+      $(this)
+        .prev()
+        .html() === ""
+    ) {
+      $(this).html("");
+      $(this)
+        .prev()
+        .html(txt);
+    } else if (
+      $(this)
+        .parent()
+        .prev()
+        .find(".square:nth-of-type(" + (index + 1) + ")")
+        .html() === ""
+    ) {
+      $(this).html("");
+      $(this)
+        .parent()
+        .prev()
+        .find(".square:nth-of-type(" + (index + 1) + ")")
+        .html(txt);
+    }
+  }
+});
+</script>
